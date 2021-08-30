@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  min-width: 500px;
+}
+
+.gift{
+    margin-top: -20px;
+    
+    background-image: url(stol.jpg);
+    
+}
+
+.gif {
+    min-width: 450px;
+}
+
+.pause {
+    margin-top: -6px;
+    margin-left: 10px;
+    font-size: 70px;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(201, 181, 125);
+    text-shadow: 1px 1px 10px black;
+}
+
+.pause:hover {
+    color: rgb(235, 190, 132);
+}
+
+.break {
+    margin-top: 25px;
+}
+
+.gok {
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.gok:hover {
+    color: slateblue;
+    transition: .5s;
+    text-shadow: 1px 1px 5px black;
+}
+
+.gif {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(LRP3.gif);
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+.bean {
+    margin-left: 14%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-user-circle-o {
+    font-size: 25px;
+    margin-right: 15px;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.fa-user-circle-o:hover {
+    border: 2px solid #fff;
+    transition: .5s;
+}
+
+.bull {
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    margin-right: 5px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.bull:hover {
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.space {
+    margin-top: 18px;
+}
+
+@media (max-width:1000px){
+    .gif{
+        height: 90vh ;
+        background-size: cover;
+        background-position: center;
+   }
+}
+
+
+
+@media (max-width:660px) {
+    .gok {
+        font-size: 17px;
+    }
+    .break {
+        margin-top: 35px;
+    }
+    .bull {
+        font-size: 17px;
+    }
+    .fa-user-circle-o {
+        font-size: 17px;
+    }
+    .space {
+        margin-top: 26px;
+    }
+}
+
+@media (max-width:550px) {
+    .gok {
+        font-size: 13px;
+    }
+    .bull {
+        font-size: 13px;
+        width: 50px;
+    }
+    .fa-user-circle-o {
+        font-size: 13px;
+    }
+    .space {
+        margin-top: 29px;
+    }
+}
+
+@media (max-width:525px) {
+    .bean {
+        margin-left: -8px;
+    }
+    .gif{
+         height: 80vh ;
+         background-size: cover;
+         background-position: center;
+    }
+}
+
+.loser {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.cena {
+    color: tan;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.wick {
+    font-size: 25px;
+    color: #fff;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 5px black;
+}
+.caps{
+    text-align:center ;
+    margin-top: 20px;
+}
+.lock{
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(221,207,162);
+    backdrop-filter: blur(1px);
+    padding: 10px;
+    width: 100px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px black;
+}
+.lock:hover{
+    background-color: transparent;
+    transition: .5s;
+    border: 2px solid rgb(221, 207, 162);
+    color: rgb(221,207,162);
+    width: 130px;
+
+}
+.sull{
+    text-align:center ;
+    min-width: 450px;
+}
+.stull{
+    color:tan ;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-shadow:1px 1px 5px black;  
+
+}
+
+.dilop{
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
+@media (max-width:950px){
+    .stb{
+        
+        flex-direction: column;
+    }
+    .slote{
+        text-align: center;
+    }
+}
+
+.stb{
+     min-width: 450px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+          
+}
+.solo{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(116, 79, 64);
+    text-shadow: 1px 1px 3px black;
+}
+
+
+.logan{
+    background-color: rgb(162, 176, 206);
+    min-width: 475px;
+    width: 100%;
+    height: 135px;
+    
+    
+    
+}
+.winer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.build{
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-comments{
+    font-size: 40px;
+    text-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+.tilt{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
+}
+.fa-rss-square{
+    font-size: 40px;
+    text-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+.feed{
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-exclamation-triangle{
+    text-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    font-size: 40px;
+}
+.squade{
+    margin-top: 20px;
+    text-align: center;
+}
+@media (max-width:660px){
+    .tilt{
+     font-size: 15px;
+    }
+}
+.max{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
